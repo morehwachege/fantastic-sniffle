@@ -35,8 +35,10 @@ nav{
     border-bottom: 1px solid #333;
     
 }
-p.logo{
-    font-family: 'Oreo Script', cursive !important;
+.logo{
+    font-size: 25px;
+    font-family: 'Oleo Script', cursive;
+
 }
 
 .navbar ul{
@@ -221,3 +223,34 @@ button.btn-search:hover{
 }
 
 /* end our products section */
+
+
+/* start choose section */
+
+.choose{
+    width: 100%;
+    height: auto;
+    min-height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+ul.desc-ul{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    list-style: none;
+}
+li.desc-li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+span.icon{
+    color: #0F298B;
+}
+
+/* end choose section */
