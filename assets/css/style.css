@@ -128,8 +128,29 @@ section.search{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     margin-bottom: 100px;
 }
-.location p{
+.location h3{
+    color: #2549D3;
+}
+.property h3{
+    color: #2549D3;
+}
+.price h3{
+    color: #2549D3;
+}
+.location .form-input{
+    border: none;
     margin-top: 10px;
+    font-size: 16px;
+}
+.property .form-input{
+    border: none;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.price .form-input{
+    border: none;
+    margin-top: 10px;
+    font-size: 16px;
 }
 .btn-search{
     width: 120px;
