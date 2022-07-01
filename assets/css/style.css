@@ -1,6 +1,8 @@
 *{
     margin: 0 auto;
     padding: 0;
+    /* font-family: 'Oleo Script', cursive; */
+    font-family: 'Space Grotesk', sans-serif;
 
 
 }
@@ -79,14 +81,14 @@ button.btn.get-started:hover{
 }
 .hero-section .inner h2{
     font-size: 45px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 500;
-    color: #2549D3;
+    color: #0F298B;
 }
 .hero-section .inner p{
     padding-top: 10px;
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .btns{
     margin-top: 30px;
@@ -182,7 +184,7 @@ button.btn-search:hover{
     padding-left: 35px;
     font-size: 35px;
     color: #0F298B;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .how-it-works{
     font-size: 35px;
@@ -192,7 +194,9 @@ button.btn-search:hover{
 }
 .works{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 /* end our products section */
