@@ -18,6 +18,8 @@ nav{
     overflow: hidden;
     top: 0;
     position: fixed;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     /* background-color: #333; */
 }
 .navbar{
@@ -28,6 +30,7 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #333;
     
 }
 p.logo{
