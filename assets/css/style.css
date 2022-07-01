@@ -2,6 +2,7 @@
     margin: 0 auto;
     padding: 0;
 
+
 }
 body{
     /* background-color: blue; */
@@ -22,6 +23,9 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+p.logo{
+    font-family: 'Oreo Script', cursive !important;
 }
 
 .navbar ul{
@@ -45,24 +49,46 @@ nav{
 }
 .hero-section{
     height: 80vh;
-    background-color: #f3f3f3;
-    display: flex;
+    /* background-color: #f3f3f3; */
+    
 }
-.side-section{
+.hero-section .inner{
     width: 100%;
-    height: auto;
+    height: 100%;
+    /* background-color: red; */
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
-    flex-direction: column;
-    background-color: red;
-}
-.side-section h2{
-    font-size: 40px;
-}
-.image-section{
-    width: 100%;
-    height: auto;
-    display: flex;
     align-items: center;
+}
+.hero-section .inner .right-section{
+    /* padding: 30px; */
+    /* background-color: lime; */
+    height: 50%;
+}
+.hero-section .inner h2{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: blue;
+}
+.hero-section .inner p{
+    padding-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.btns{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 50%;
+}
+.btns button.learn{
+    width: 120px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    font-size: 16px;
+    border-radius: 5px;
 }
