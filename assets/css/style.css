@@ -119,7 +119,7 @@ span i.play{
 }
 
 /* search section */
-section.search{
+section.search form{
     background-color: #fff;
     width: 70%;
     height: auto;
@@ -171,3 +171,28 @@ button.btn-search:hover{
     transition: .2s ease-in-out;
 }
 /* end search section */
+
+
+/* how our products section */
+
+.products{
+    padding: 30px;
+}
+.our-products{
+    padding-left: 35px;
+    font-size: 35px;
+    color: #0F298B;
+    margin-bottom: 30px;
+}
+.how-it-works{
+    font-size: 35px;
+    color: #0F298B;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.works{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* end our products section */
