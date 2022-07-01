@@ -6,6 +6,7 @@
 }
 body{
     /* background-color: #2549D3; */
+    background-color: #FAFAFA;
 }
 main{
     margin-right: 30px;
@@ -20,6 +21,7 @@ nav{
     /* background-color: #333; */
 }
 .navbar{
+    background-color: #FAFAFA;
     width: 100%;
     height: 100%;
     display: flex;
@@ -44,15 +46,15 @@ p.logo{
     width: 120px;
     height: 40px;
     background-color: #2549D3;
-    color: white;
+    color: #FAFAFA;
     border-color: #2549D3;
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 button.btn.get-started:hover{
-    background-color: white;
+    background-color: #FAFAFA;
     color: #2549D3;
     transition: .2s ease-in-out;
 }
@@ -94,7 +96,7 @@ button.btn.get-started:hover{
     width: 120px;
     height: 35px;
     background-color: #2549D3;
-    color: white;
+    color: #FAFAFA;
     border: none;
     font-size: 16px;
     border-radius: 5px;
@@ -103,7 +105,7 @@ button.btn.get-started:hover{
 
 }
 button.learn:hover{
-    background-color: white;
+    background-color: #FAFAFA;
     color: #2549D3;
     transition: .2s ease-in-out;
 
@@ -112,3 +114,36 @@ button.learn:hover{
 span i.play{
     color: #2549D3;
 }
+
+/* search section */
+section.search{
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin-bottom: 100px;
+}
+.location p{
+    margin-top: 10px;
+}
+.btn-search{
+    width: 120px;
+    height: 35px;
+    background-color: #2549D3;
+    color: #FAFAFA;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+button.btn-search:hover{
+    background-color: #FAFAFA;
+    color: #2549D3;
+    transition: .2s ease-in-out;
+}
+/* end search section */
