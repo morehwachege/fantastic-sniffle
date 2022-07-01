@@ -5,7 +5,7 @@
 
 }
 body{
-    /* background-color: blue; */
+    /* background-color: #2549D3; */
 }
 main{
     margin-right: 30px;
@@ -14,6 +14,9 @@ main{
 nav{
     width: 100%;
     height: 70px;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
     /* background-color: #333; */
 }
 .navbar{
@@ -23,6 +26,7 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 p.logo{
     font-family: 'Oreo Script', cursive !important;
@@ -39,16 +43,22 @@ p.logo{
 .btn.get-started{
     width: 120px;
     height: 40px;
-    background-color: blue;
+    background-color: #2549D3;
     color: white;
-    border-color: blue;
+    border-color: #2549D3;
     border-radius: 5px;
     font-weight: 700;
     font-size: 16px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+button.btn.get-started:hover{
+    background-color: white;
+    color: #2549D3;
+    transition: .2s ease-in-out;
+}
 .hero-section{
     height: 80vh;
+    padding-top: 100px;
     
 }
 .hero-section .inner{
@@ -66,7 +76,7 @@ p.logo{
     font-size: 45px;
     letter-spacing: 2px;
     font-weight: 500;
-    color: blue;
+    color: #2549D3;
 }
 .hero-section .inner p{
     padding-top: 10px;
@@ -83,9 +93,22 @@ p.logo{
 .btns button.learn{
     width: 120px;
     height: 35px;
-    background-color: blue;
+    background-color: #2549D3;
     color: white;
-    border-color: blue;
+    border: none;
     font-size: 16px;
     border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+
+}
+button.learn:hover{
+    background-color: white;
+    color: #2549D3;
+    transition: .2s ease-in-out;
+
+}
+
+span i.play{
+    color: #2549D3;
 }
