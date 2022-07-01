@@ -286,7 +286,7 @@ span.icon{
 /* start testimonials card */
 .testimonials {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     padding: 10px;
     margin-bottom: 30px;
     
@@ -359,7 +359,7 @@ button.view:hover{
 }
 .info-col.desc .logo{
     margin-bottom: 20px;
-    
+
 }
 
 /* end footer */
