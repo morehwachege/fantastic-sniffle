@@ -101,6 +101,7 @@ button.btn.get-started:hover{
     font-size: 20px;
     letter-spacing: 1px;
 }
+
 .btns{
     margin-top: 30px;
     display: flex;
@@ -130,6 +131,9 @@ button.learn:hover{
 
 span i.play{
     color: #2549D3;
+}
+span i.play:hover{
+    color: #0F298B;
 }
 
 /* search section */
