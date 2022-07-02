@@ -327,10 +327,9 @@ span.icon{
     text-align: start;
     border-radius: 6px;
     padding: 20px;
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: flex-start; */
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
 }
 .view{
     margin-top: 30px;
