@@ -134,6 +134,7 @@ span i.play{
 }
 span i.play:hover{
     color: #0F298B;
+    transition: .2s ease;
 }
 
 /* search section */
