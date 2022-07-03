@@ -3,6 +3,11 @@
 #### By Muriithi A. Gakuru
 ## Description
 Use case for this website is as a landing page to a web application or for advertisement purposes. The clean layout is easy to comprehend and or adjust.
+
+## Demo 
+[Live Demo](https://morehwachege.github.io/fantastic-sniffle/)
+    
+    
 ## Setup/Installation Requirements
  * Method 1
     Clone the repository
