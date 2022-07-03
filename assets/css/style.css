@@ -6,12 +6,7 @@
 
 
 }
-html{
-    width: 100vw;
-    /* font-family:sans-serif; */
-    -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
-}
+
 body{
     /* background-color: #2549D3; */
     background-color: #FAFAFA;
@@ -68,6 +63,18 @@ nav{
     color: #0F298B;
     font-weight: 800;
     transition: .5s ease;
+}
+.hamburger{
+    display: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 .btn.get-started{
     width: 120px;
