@@ -48,6 +48,10 @@ nav{
     list-style: none;
     margin-right: 25px;
 }
+.navbar ul li a.active{
+    color: #0F298B;
+    font-weight: 800;
+}
 .navbar ul li a{
     text-decoration: none;
     color: #333;
@@ -342,11 +346,8 @@ span.icon{
     border-radius: 5px;
     font-weight: 500;
     font-size: 16px;
-<<<<<<< HEAD
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     cursor: pointer;
-=======
->>>>>>> 8ab866b5a27256f458bcdc4e1a7969aeeccd4c7d
 }
 button.view:hover{
     background-color: #FAFAFA;
@@ -386,3 +387,51 @@ button.view:hover{
 }
 
 /* end footer */
+
+
+/* responsiveness */
+
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-links {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
+
+
+/* end responsiveness */
